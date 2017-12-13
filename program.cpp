@@ -1,10 +1,14 @@
+//פאיכ program.cpp
 #include "stdafx.h"
+#include <iostream>
 #include "funcs.h"
-double MySum(double a, double b)
+
+using namespase std;
+
+int main()
 {
-return a + b;
-}
-double MySub(double a, double b)
-{
-return a - b;
+	cout << MySum(10,3) << endl;
+	cout << MySub(10,3) << endl;
+	//system ("pause");
+	return 0;
 }
