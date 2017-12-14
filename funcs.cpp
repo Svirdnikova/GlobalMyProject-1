@@ -11,4 +11,8 @@ return a - b;
 double MyMul(double, double);
 {
 return a * b;
+} 
+double MyDiv(double a, double b)
+{
+return a - b;
 }
